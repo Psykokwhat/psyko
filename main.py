@@ -18,7 +18,7 @@ async def on_member_join(member):
 async def on_member_remove(member):
 	my_guild = bot.get_guild(457198861635813386)
 	join = my_guild.get_channel(457199084269338634)
-	await join.send(f"{member.display_name} nous a quittés, il est desormais libre et sain d'esprit ! Félicitons-le.**")
+	await join.send(f"**{member.display_name} nous a quittés, il est desormais libre et sain d'esprit ! Félicitons-le.**")
 
 @bot.command()
 async def gay(ctx):
