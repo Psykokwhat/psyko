@@ -31,7 +31,7 @@ async def gay(ctx):
 	elif a<26:
 		await msg.edit(content=(f"**{a}% ? Hm, il semble que vous ayez été infecté d'hétérosexualité de manière assez conséquente... Nous allons devoir procéder à un toucher rectal pour finaliser l'analyse. Restez en place, s'il-vous-plaît !**"))
 	elif a<51:
-		await msg.edit(content=(f"**Vous semblez porter en vous que {100-a}% d'hétérosexualité, c'est plutôt bon signe. On vous laisse partir ~**"))
+		await msg.edit(content=(f"**Vous semblez ne porter en vous que {100-a}% d'hétérosexualité, c'est plutôt bon signe. On vous laisse partir ~**"))
 	else:
 		await msg.edit(content=(f"**Waow ! {a}% ! Vous semblez être épargné de cette saloperie d'hétérosexualité, c'est tout bon pour vous.**"))
 
